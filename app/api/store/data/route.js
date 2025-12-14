@@ -3,7 +3,7 @@ import prisma from "@/lib/prisma";
 import { NextResponse } from "next/server";
 //Get Store info & store products
 
-export async function get(request) {
+export async function GET(request) {
     try {
 
         // get store username from query params

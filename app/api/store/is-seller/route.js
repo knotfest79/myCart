@@ -4,7 +4,7 @@ import prisma from "@/lib/prisma";
 import { getAuth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 //Auth Seller
-export async function get(request) {
+export async function GET(request) {
 
     try {
         const { userId } = getAuth(request)
