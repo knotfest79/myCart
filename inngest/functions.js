@@ -1,4 +1,5 @@
-import { first } from "../node_modules/effect/src/GroupBy";
+import { first } from "effect/GroupBy";
+
 import { step } from "inngest";
 import { inngest } from "./client";
 import prisma from "@/lib/prisma";
